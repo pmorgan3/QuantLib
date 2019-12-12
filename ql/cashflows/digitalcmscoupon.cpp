@@ -20,7 +20,9 @@
 */
 
 #include <ql/cashflows/digitalcmscoupon.hpp>
+#include <ql/cashflows/cmscoupon.hpp>
 #include <ql/cashflows/cashflowvectors.hpp>
+#include <ql/indexes/swapindex.hpp>
 
 namespace QuantLib {
 

@@ -27,17 +27,16 @@
 #ifndef quantlib_coupon_pricer_hpp
 #define quantlib_coupon_pricer_hpp
 
-#include <ql/termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
-#include <ql/termstructures/volatility/swaption/swaptionvolstructure.hpp>
-#include <ql/indexes/iborindex.hpp>
 #include <ql/cashflow.hpp>
 #include <ql/option.hpp>
+#include <ql/indexes/iborindex.hpp>
 #include <ql/quotes/simplequote.hpp>
+#include <ql/termstructures/volatility/optionlet/optionletvolatilitystructure.hpp>
+#include <ql/termstructures/volatility/swaption/swaptionvolstructure.hpp>
 
 namespace QuantLib {
 
     class FloatingRateCoupon;
-    class IborCoupon;
 
     //! generic pricer for floating-rate coupons
     class FloatingRateCouponPricer: public virtual Observer,

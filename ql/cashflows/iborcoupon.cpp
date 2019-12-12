@@ -26,7 +26,7 @@
 #include <ql/cashflows/capflooredcoupon.hpp>
 #include <ql/cashflows/cashflowvectors.hpp>
 #include <ql/indexes/interestrateindex.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
+#include <ql/indexes/iborindex.hpp>
 
 namespace QuantLib {
 

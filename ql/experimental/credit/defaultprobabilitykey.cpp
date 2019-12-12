@@ -19,6 +19,7 @@
 */
 
 #include <ql/experimental/credit/defaultprobabilitykey.hpp>
+#include <ql/errors.hpp>
 #if defined(QL_PATCH_MSVC)
 #pragma warning(push)
 #pragma warning(disable:4181)

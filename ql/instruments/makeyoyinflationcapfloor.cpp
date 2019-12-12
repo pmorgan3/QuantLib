@@ -20,6 +20,7 @@
  */
 
 #include <ql/instruments/makeyoyinflationcapfloor.hpp>
+#include <ql/indexes/inflationindex.hpp>
 #include <ql/cashflows/cashflows.hpp>
 #include <ql/time/daycounters/thirty360.hpp>
 

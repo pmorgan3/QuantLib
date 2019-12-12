@@ -22,6 +22,7 @@
 #include <ql/pricingengines/capfloor/blackcapfloorengine.hpp>
 #include <ql/pricingengines/capfloor/discretizedcapfloor.hpp>
 #include <ql/pricingengines/swap/discountingswapengine.hpp>
+#include <ql/indexes/iborindex.hpp>
 #include <ql/time/schedule.hpp>
 #include <ql/quotes/simplequote.hpp>
 #include <ql/cashflows/cashflowvectors.hpp>

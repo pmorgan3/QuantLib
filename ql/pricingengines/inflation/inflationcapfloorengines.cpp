@@ -19,6 +19,7 @@
 
 
 #include <ql/termstructures/volatility/inflation/yoyinflationoptionletvolatilitystructure.hpp>
+#include <ql/indexes/inflationindex.hpp>
 #include <ql/pricingengines/inflation/inflationcapfloorengines.hpp>
 #include <ql/pricingengines/blackformula.hpp>
 

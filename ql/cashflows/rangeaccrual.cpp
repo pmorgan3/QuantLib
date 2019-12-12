@@ -18,15 +18,15 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
 */
 
-
 #include <ql/cashflows/rangeaccrual.hpp>
-#include <ql/cashflows/cashflowvectors.hpp>
+#include <ql/cashflows/fixedratecoupon.hpp>
 #include <ql/pricingengines/blackformula.hpp>
 #include <ql/math/distributions/normaldistribution.hpp>
 #include <ql/time/schedule.hpp>
 #include <ql/indexes/iborindex.hpp>
 #include <ql/termstructures/yieldtermstructure.hpp>
-
+#include <ql/termstructures/volatility/smilesection.hpp>
+#include <ql/utilities/vectors.hpp>
 #include <cmath>
 
 namespace QuantLib {

@@ -37,7 +37,7 @@ namespace QuantLib {
 
         //! \name InterestRateIndex interface
         //@{
-        Date maturityDate(const Date& valueDate) const {
+        Date maturityDate(const Date&) const {
             QL_FAIL("SwapSpreadIndex does not provide a single maturity date");
         }
         Rate forecastFixing(const Date& fixingDate) const;

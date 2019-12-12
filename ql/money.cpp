@@ -21,6 +21,7 @@
 #include <ql/money.hpp>
 #include <ql/currencies/exchangeratemanager.hpp>
 #include <ql/math/comparison.hpp>
+#include <ql/errors.hpp>
 #include <boost/format.hpp>
 
 namespace QuantLib {

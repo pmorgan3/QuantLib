@@ -30,7 +30,7 @@
 #include <ql/utilities/null.hpp>
 
 namespace QuantLib {
-    class Date;
+
     //! Capped and/or floored floating-rate coupon
     /*! The payoff \f$ P \f$ of a capped floating-rate coupon is:
         \f[ P = N \times T \times \min(a L + b, C). \f]

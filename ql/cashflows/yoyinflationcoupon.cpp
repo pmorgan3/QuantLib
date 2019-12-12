@@ -22,6 +22,7 @@
 #include <ql/cashflows/inflationcoupon.hpp>
 #include <ql/cashflows/capflooredinflationcoupon.hpp>
 #include <ql/cashflows/cashflowvectors.hpp>
+#include <ql/indexes/inflationindex.hpp>
 
 namespace QuantLib {
 

@@ -28,6 +28,8 @@
 
 namespace QuantLib {
 
+    class YoYInflationCouponPricer;
+
     //! Capped or floored inflation coupon.
     /*! Essentially a copy of the nominal version but taking a
         different index and a set of pricers (not just one).

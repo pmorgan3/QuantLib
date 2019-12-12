@@ -25,7 +25,6 @@
 #include <ql/cashflows/couponpricer.hpp>
 #include <ql/termstructures/yieldtermstructure.hpp>
 #include <ql/utilities/vectors.hpp>
-#include <ql/termstructures/yieldtermstructure.hpp>
 
 using std::vector;
 

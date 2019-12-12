@@ -17,9 +17,9 @@
  FOR A PARTICULAR PURPOSE.  See the license for more details.
  */
 
-#include <ql/cashflows/yoyinflationcoupon.hpp>
-#include <ql/indexes/inflationindex.hpp>
+#include <ql/cashflows/inflationcoupon.hpp>
 #include <ql/cashflows/inflationcouponpricer.hpp>
+#include <ql/indexes/inflationindex.hpp>
 #include <ql/termstructures/yieldtermstructure.hpp>
 
 namespace QuantLib {

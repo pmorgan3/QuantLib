@@ -24,13 +24,13 @@
 #ifndef quantlib_cpicouponpricer_hpp
 #define quantlib_cpicouponpricer_hpp
 
-#include <ql/cashflow.hpp>
 #include <ql/option.hpp>
 #include <ql/cashflows/inflationcouponpricer.hpp>
-#include <ql/cashflows/cpicoupon.hpp>
 #include <ql/termstructures/volatility/inflation/cpivolatilitystructure.hpp>
 
 namespace QuantLib {
+
+    class CPICoupon;
 
     //! base pricer for capped/floored CPI coupons N.B. vol-dependent parts are a TODO
     /*! \note this pricer can already do swaplets but to get

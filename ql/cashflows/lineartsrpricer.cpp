@@ -22,18 +22,14 @@
 */
 
 #include <ql/cashflows/lineartsrpricer.hpp>
-#include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
 #include <ql/cashflows/cmscoupon.hpp>
 #include <ql/termstructures/yieldtermstructure.hpp>
-#include <ql/quotes/simplequote.hpp>
-#include <ql/indexes/iborindex.hpp>
-#include <ql/time/schedule.hpp>
+#include <ql/indexes/swapindex.hpp>
 #include <ql/instruments/vanillaswap.hpp>
 #include <ql/math/solvers1d/brent.hpp>
 #include <ql/math/integrals/kronrodintegral.hpp>
-#include <ql/pricingengines/blackformula.hpp>
 #include <ql/termstructures/volatility/atmsmilesection.hpp>
+#include <ql/termstructures/volatility/swaption/swaptionvolstructure.hpp>
 
 namespace QuantLib {
 

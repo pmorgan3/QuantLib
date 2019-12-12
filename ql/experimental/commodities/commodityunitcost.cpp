@@ -18,6 +18,7 @@
 */
 
 #include <ql/experimental/commodities/commodityunitcost.hpp>
+#include <ostream>
 
 namespace QuantLib {
 

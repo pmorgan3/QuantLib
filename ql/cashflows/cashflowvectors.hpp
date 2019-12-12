@@ -32,14 +32,14 @@
 #define quantlib_cash_flow_vectors_hpp
 
 #include <ql/cashflows/fixedratecoupon.hpp>
-#include <ql/cashflows/replication.hpp>
 #include <ql/time/schedule.hpp>
 #include <ql/utilities/null.hpp>
 #include <ql/utilities/vectors.hpp>
 #include <ql/position.hpp>
-#include <ql/indexes/swapindex.hpp>
 
 namespace QuantLib {
+
+    class DigitalReplication;
 
     namespace detail {
 

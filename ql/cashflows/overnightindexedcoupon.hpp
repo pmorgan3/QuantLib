@@ -29,10 +29,11 @@
 #define quantlib_overnight_indexed_coupon_hpp
 
 #include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/indexes/iborindex.hpp>
 #include <ql/time/schedule.hpp>
 
 namespace QuantLib {
+
+    class OvernightIndex;
 
     //! overnight coupon
     /*! %Coupon paying the compounded interest due to daily overnight fixings.

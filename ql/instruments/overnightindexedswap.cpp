@@ -21,6 +21,7 @@
 */
 
 #include <ql/instruments/overnightindexedswap.hpp>
+#include <ql/indexes/iborindex.hpp>
 #include <ql/cashflows/overnightindexedcoupon.hpp>
 #include <ql/cashflows/fixedratecoupon.hpp>
 

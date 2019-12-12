@@ -27,10 +27,12 @@
 #define quantlib_digital_cms_coupon_hpp
 
 #include <ql/cashflows/digitalcoupon.hpp>
-#include <ql/cashflows/cmscoupon.hpp>
 #include <ql/time/schedule.hpp>
 
 namespace QuantLib {
+
+    class CmsCoupon;
+    class SwapIndex;
 
     //! Cms-rate coupon with digital digital call/put option
     class DigitalCmsCoupon : public DigitalCoupon {

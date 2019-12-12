@@ -27,10 +27,11 @@
 #define quantlib_digital_ibor_coupon_hpp
 
 #include <ql/cashflows/digitalcoupon.hpp>
-#include <ql/cashflows/iborcoupon.hpp>
 #include <ql/time/schedule.hpp>
 
 namespace QuantLib {
+
+    class IborCoupon;
 
     //! Ibor rate coupon with digital digital call/put option
     class DigitalIborCoupon : public DigitalCoupon {

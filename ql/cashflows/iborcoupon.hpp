@@ -30,10 +30,11 @@
 #define quantlib_ibor_coupon_hpp
 
 #include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/indexes/iborindex.hpp>
 #include <ql/time/schedule.hpp>
 
 namespace QuantLib {
+
+    class IborIndex;
 
     //! %Coupon paying a Libor-type index
     class IborCoupon : public FloatingRateCoupon {

@@ -19,6 +19,7 @@
 */
 
 #include <ql/exchangerate.hpp>
+#include <ql/errors.hpp>
 
 namespace QuantLib {
 

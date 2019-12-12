@@ -25,11 +25,11 @@
 #define quantlib_newyoy_coupon_hpp
 
 #include <ql/cashflows/inflationcoupon.hpp>
-#include <ql/indexes/inflationindex.hpp>
 #include <ql/time/schedule.hpp>
 
 namespace QuantLib {
-    class YoYInflationCouponPricer;
+
+    class YoYInflationIndex;
 
     //! %Coupon paying a YoY-inflation type index
     class YoYInflationCoupon : public InflationCoupon {

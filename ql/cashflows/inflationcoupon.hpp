@@ -27,13 +27,13 @@
 #include <ql/cashflows/coupon.hpp>
 #include <ql/patterns/visitor.hpp>
 #include <ql/time/daycounter.hpp>
-#include <ql/handle.hpp>
 
 namespace QuantLib {
 
     class InflationIndex;
     class YieldTermStructure;
     class InflationCouponPricer;
+    template <class T> class Handle;
 
     //! Base inflation-coupon class
     /*! The day counter is usually obtained from the inflation term

@@ -29,11 +29,12 @@
 
 #include <ql/cashflows/duration.hpp>
 #include <ql/cashflow.hpp>
-#include <ql/interestrate.hpp>
-#include <ql/shared_ptr.hpp>
+#include <ql/time/daycounter.hpp>
+#include <ql/compounding.hpp>
 
 namespace QuantLib {
 
+    class InterestRate;
     class YieldTermStructure;
 
     //! %cashflow-analysis functions

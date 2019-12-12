@@ -18,6 +18,7 @@
 */
 
 #include <ql/currency.hpp>
+#include <ostream>
 
 namespace QuantLib {
 

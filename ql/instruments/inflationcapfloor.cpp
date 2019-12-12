@@ -21,6 +21,7 @@
 #include <ql/math/solvers1d/newtonsafe.hpp>
 #include <ql/quotes/simplequote.hpp>
 #include <ql/cashflows/cashflows.hpp>
+#include <ql/termstructures/yieldtermstructure.hpp>
 #include <ql/utilities/dataformatters.hpp>
 
 namespace QuantLib {

@@ -26,11 +26,12 @@
 #define quantlib_cash_flow_hpp
 
 #include <ql/event.hpp>
-#include <ql/math/comparison.hpp>
 #include <vector>
 
 namespace QuantLib {
 
+    template <class T> struct earlier_than;
+    
     //! Base class for cash flows
     /*! This class is purely virtual and acts as a base class for the
         actual cash flow implementations.

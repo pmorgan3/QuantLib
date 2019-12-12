@@ -24,12 +24,14 @@
 #ifndef quantlib_inflation_coupon_pricer_hpp
 #define quantlib_inflation_coupon_pricer_hpp
 
-#include <ql/cashflow.hpp>
 #include <ql/option.hpp>
-#include <ql/cashflows/yoyinflationcoupon.hpp>
+#include <ql/termstructures/yieldtermstructure.hpp>
 #include <ql/termstructures/volatility/inflation/yoyinflationoptionletvolatilitystructure.hpp>
 
 namespace QuantLib {
+
+    class InflationCoupon;
+    class YoYInflationCoupon;
 
     //! Base inflation-coupon pricer.
     /*! The main reason we can't use FloatingRateCouponPricer as the

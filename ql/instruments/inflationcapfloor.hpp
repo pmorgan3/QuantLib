@@ -31,6 +31,7 @@
 namespace QuantLib {
 
     class YieldTermStructure;
+    class YoYInflationTermStructure;
 
     //! Base class for yoy inflation cap-like instruments
     /*! \ingroup instruments

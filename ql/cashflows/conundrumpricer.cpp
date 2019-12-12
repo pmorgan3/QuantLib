@@ -29,9 +29,9 @@
 #include <ql/termstructures/volatility/smilesection.hpp>
 #include <ql/cashflows/cmscoupon.hpp>
 #include <ql/termstructures/yieldtermstructure.hpp>
+#include <ql/termstructures/volatility/swaption/swaptionvolstructure.hpp>
 #include <ql/quotes/simplequote.hpp>
 #include <ql/indexes/swapindex.hpp>
-#include <ql/indexes/interestrateindex.hpp>
 #include <ql/time/schedule.hpp>
 #include <ql/instruments/vanillaswap.hpp>
 #include <ql/functional.hpp>

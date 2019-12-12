@@ -26,7 +26,8 @@
 #define quantlib_currency_hpp
 
 #include <ql/math/rounding.hpp>
-#include <ql/errors.hpp>
+#include <ql/shared_ptr.hpp>
+#include <string>
 #include <iosfwd>
 
 namespace QuantLib {

@@ -20,6 +20,7 @@
 */
 
 #include <ql/cashflows/digitaliborcoupon.hpp>
+#include <ql/cashflows/iborcoupon.hpp>
 #include <ql/cashflows/cashflowvectors.hpp>
 
 namespace QuantLib {

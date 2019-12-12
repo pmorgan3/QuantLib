@@ -18,6 +18,7 @@
  */
 
 #include <ql/cashflows/cpicouponpricer.hpp>
+#include <ql/cashflows/cpicoupon.hpp>
 
 namespace QuantLib {
 

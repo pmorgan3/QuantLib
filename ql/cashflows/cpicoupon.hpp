@@ -40,9 +40,6 @@ namespace QuantLib {
         };
     };
 
-
-    class CPICouponPricer;
-
     //! %Coupon paying the performance of a CPI (zero inflation) index
     /*! The performance is relative to the index value on the base date.
 

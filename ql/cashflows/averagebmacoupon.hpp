@@ -26,9 +26,11 @@
 #define quantlib_bma_coupon_hpp
 
 #include <ql/cashflows/floatingratecoupon.hpp>
-#include <ql/indexes/bmaindex.hpp>
+#include <ql/time/schedule.hpp>
 
 namespace QuantLib {
+
+    class BMAIndex;
 
     //! Average BMA coupon
     /*! %Coupon paying a BMA index, where the coupon rate is a
